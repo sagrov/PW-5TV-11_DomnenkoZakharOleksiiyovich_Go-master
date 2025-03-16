@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Task 2</title>
+</head>
+<body>
+<h1>Task 2</h1>
+<form id="calculator2">
+  <div>
+    <label for="input1">Збитки в разі аварійних вимкнень:</label>
+    <input type="number" step="any" id="input1" required>
+  </div>
+  <div>
+    <label for="input2">Збитки в разі планових вимкнень:</label>
+    <input type="number" step="any" id="input2" required>
+  </div>
+  <div>
+    <label for="input3">Частота відмов:</label>
+    <input type="number" step="any" id="input3" required>
+  </div>
+  <div>
+    <label for="input4">Середній час відновлення трансформатора:</label>
+    <input type="number" step="any" id="input4" required>
+  </div>
+  <div>
+    <label for="input5">Середній час планового простою:</label>
+    <input type="number" step="any" id="input5" required>
+  </div>
+  <div>
+    <label for="input6">Потужність трансформатора:</label>
+    <input type="number" step="any" id="input6" required>
+  </div>
+  <div>
+    <label for="input7">Час відключення:</label>
+    <input type="number" step="any" id="input7" required>
+  </div>
+  <button type="submit">Calculate</button>
+</form>
+<p id="result">Result: </p>
+
+<div class="container">
+  <div class="vertical-center">
+    <button onclick="location.href='index.html'" type="button"> Home  </button>
+    <button onclick="location.href='calculator1.html'" type="button"> Go to Task 1  </button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
